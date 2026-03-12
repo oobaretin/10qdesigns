@@ -27,16 +27,30 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Deployment (Vercel)
 
-1. Push to GitHub
-2. Import project in [Vercel](https://vercel.com)
-3. Deploy — zero config required
+### Option 1: Deploy via Vercel Dashboard
 
-Or use the Vercel CLI:
+1. **Push your code to GitHub** (if not already):
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push -u origin main
+   ```
+
+2. **Import on Vercel**
+   - Go to [vercel.com/new](https://vercel.com/new)
+   - Sign in with GitHub
+   - Select the `oobaretin/10Q-Designs` repository
+   - Vercel auto-detects Next.js — click **Deploy**
+   - Your site will be live in ~2 minutes
+
+### Option 2: Deploy via Vercel CLI
 
 ```bash
 npm i -g vercel
 vercel
 ```
+
+Follow the prompts. Use `vercel --prod` for production deployment.
 
 ## Project Structure
 
