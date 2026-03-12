@@ -152,29 +152,5 @@ export const projects: Project[] = [
     },
     featuredPage: "/work/inventory-portal",
   },
-  {
-    id: "1",
-    title: "Enterprise SaaS Platform",
-    category: "client",
-    techTags: ["Next.js", "PostgreSQL", "Redis", "Stripe"],
-    liveLink: "https://example.com",
-    description: "Scalable B2B platform with real-time analytics.",
-  },
-  {
-    id: "2",
-    title: "AI-Powered Workflow Automation",
-    category: "client",
-    techTags: ["Python", "OpenAI", "FastAPI", "React"],
-    liveLink: "https://example.com",
-    description: "LLM-integrated automation tool.",
-  },
-  {
-    id: "3",
-    title: "E-commerce Analytics Suite",
-    category: "client",
-    techTags: ["TypeScript", "Node.js"],
-    liveLink: "https://example.com",
-    description: "Custom analytics for mid-market retailers.",
-  },
 ];
 
