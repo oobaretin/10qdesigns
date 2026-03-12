@@ -152,5 +152,49 @@ export const projects: Project[] = [
     },
     featuredPage: "/work/inventory-portal",
   },
+  {
+    id: "white-screen-tools",
+    title: "WhiteScreen Tools",
+    category: "client",
+    techTags: ["Next.js", "Tailwind CSS", "PWA", "JavaScript"],
+    liveLink: "https://whitescreentools.com",
+    description: "Professional-grade suite for screen testing, OLED maintenance, and hardware calibration.",
+    caseStudy: {
+      role: "Lead Developer & UI/UX Designer",
+      challenge:
+        "Display maintenance and testing often require specific light conditions and patterns that are hard to find in a clean, ad-free environment. The goal was to build a professional-grade suite of tools for screen testing, OLED maintenance, and hardware calibration.",
+      solution: [
+        "Developed a specialized Burn-in Fixer and stuck-pixel repair tool using high-frequency color cycling.",
+        "Integrated digital screen rulers and color-purity testers that leverage the full resolution of the user's display.",
+        "Built as a Progressive Web App (PWA) to allow offline use and dedicated-window mode without browser distractions.",
+        "Tech stack: Next.js, Tailwind CSS, and optimized JavaScript for high-frame-rate visual patterns.",
+      ],
+      result:
+        "A live, specialized utility (whitescreentools.com) used by technicians and hardware enthusiasts to verify display quality. This project highlights my ability to build high-performance tools that solve niche technical problems with a focus on speed and accuracy.",
+    },
+    featuredPage: "/work/white-screen-tools",
+  },
+  {
+    id: "mood-meter-tracker",
+    title: "Mood Meter Tracker",
+    category: "client",
+    techTags: ["Next.js", "TypeScript", "Tailwind CSS", "Data Visualization"],
+    liveLink: "https://www.moodmetertracker.com",
+    description: "Emotional wellness companion—log moods, visualize patterns, gain insights.",
+    caseStudy: {
+      role: "Lead Full-Stack Developer & UI/UX Designer",
+      challenge:
+        "Emotional intelligence and mindfulness require consistent tracking and reflection. The goal was to build a digital companion that allows users to log their emotional states and visualize patterns over time, helping them gain insights into their mental well-being through a clean, non-intrusive interface.",
+      solution: [
+        "Designed a simplified interface for capturing complex emotional data points quickly, ensuring low friction for daily use.",
+        "Implemented dynamic charts and data visualization tools to help users identify trends in mood and energy levels over weeks and months.",
+        "Built with a responsive, mobile-first philosophy to ensure users can log their feelings anytime, anywhere.",
+        "Tech stack: Next.js, Tailwind CSS, TypeScript, and specialized data visualization libraries for real-time charting.",
+      ],
+      result:
+        "A live, user-centric wellness tool (moodmetertracker.com) that empowers individuals to take control of their emotional health. This project demonstrates my versatility in building applications that serve the human side of technology, combining data-driven logic with empathetic design.",
+    },
+    featuredPage: "/work/mood-meter-tracker",
+  },
 ];
 
