@@ -10,7 +10,7 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://github.com/oobaretin/10Q-Designs", icon: Github, label: "GitHub" },
+  { href: "https://github.com/oobaretin/10qdesigns", icon: Github, label: "GitHub" },
   { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
 ];
 

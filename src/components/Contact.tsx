@@ -14,7 +14,7 @@ import {
 const EMAIL = "hello@10qdesigns.com";
 
 const socialLinks = [
-  { href: "https://github.com/oobaretin/10Q-Designs", icon: Github, label: "GitHub" },
+  { href: "https://github.com/oobaretin/10qdesigns", icon: Github, label: "GitHub" },
   { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
 ];
 
@@ -52,7 +52,7 @@ export function Contact() {
                   className="flex items-center gap-2 text-zinc-300 transition-colors hover:text-accent"
                 >
                   <Mail className="h-5 w-5 shrink-0" />
-                  <span className="font-medium">{EMAIL}</span>
+                  <span className="break-all font-medium">{EMAIL}</span>
                 </a>
                 <Tooltip open={copied ? true : undefined}>
                   <TooltipTrigger asChild>

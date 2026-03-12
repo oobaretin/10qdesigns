@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   title: "10Q Designs | Full-Stack Development & AI Integration",
   description:
     "Full-stack development and AI integration. Building scalable solutions that ship.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({

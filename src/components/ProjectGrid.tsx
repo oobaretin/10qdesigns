@@ -30,7 +30,7 @@ export function ProjectGrid() {
     <section id="work" className="scroll-mt-24 px-6 py-24">
       <div className="mx-auto max-w-6xl">
         {/* Filter navigation */}
-        <nav className="mb-12 flex gap-1 border-b border-zinc-800">
+        <nav className="mb-12 flex flex-wrap gap-1 border-b border-zinc-800">
           {filterOptions.map((opt) => (
             <button
               key={opt.value}

@@ -20,7 +20,7 @@ export default function AboutPage() {
     <>
       <Header />
       <main className="min-h-screen bg-[#0a0a0f] pt-24">
-        <div className="mx-auto max-w-6xl px-6 py-24">
+        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

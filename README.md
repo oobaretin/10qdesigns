@@ -2,7 +2,7 @@
 
 A modern, high-performance portfolio website built with Next.js 15, Tailwind CSS, and Framer Motion.
 
-**Repository:** [github.com/oobaretin/10Q-Designs](https://github.com/oobaretin/10Q-Designs)
+**Repository:** [github.com/oobaretin/10qdesigns](https://github.com/oobaretin/10qdesigns)
 
 ## Tech Stack
 
