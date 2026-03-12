@@ -6,12 +6,22 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const coreTechnologies = {
-  frontend: ["React", "Next.js (App Router)", "Tailwind CSS", "Framer Motion"],
-  backend: ["Prisma", "PostgreSQL", "Anthropic API", "OpenAI API"],
+  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  backend: [
+    "Node.js",
+    "Python",
+    "FastAPI",
+    "Prisma",
+    "PostgreSQL",
+    "Redis",
+    "Stripe",
+    "OpenAI",
+    "Anthropic API",
+  ],
   specialization: [
-    "Prompt Engineering",
-    "AI-Powered Automation",
-    "Specialized SaaS Utilities",
+    "Enterprise SaaS Platforms",
+    "AI-Powered Workflow Automation",
+    "E-commerce Analytics",
   ],
 };
 
@@ -48,18 +58,19 @@ export default function AboutPage() {
                   <p>
                     <span className="font-medium text-zinc-300"
                       >Frontend:</span>{" "}
-                    React, Next.js (App Router), Tailwind CSS, Framer Motion.
+                    React, Next.js, TypeScript, Tailwind CSS, Framer Motion.
                   </p>
                   <p>
                     <span className="font-medium text-zinc-300"
                       >Backend & Data:</span>{" "}
-                    Prisma, PostgreSQL, API Integration (Anthropic/OpenAI).
+                    Node.js, Python, FastAPI, Prisma, PostgreSQL, Redis, Stripe,
+                    OpenAI, Anthropic API.
                   </p>
                   <p>
                     <span className="font-medium text-zinc-300"
                       >Specialization:</span>{" "}
-                    Prompt Engineering, AI-powered automation, and specialized
-                    SaaS utilities.
+                    Enterprise SaaS platforms, AI-powered workflow automation,
+                    and e-commerce analytics.
                   </p>
                 </div>
               </section>

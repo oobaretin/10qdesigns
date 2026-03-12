@@ -172,7 +172,7 @@ export const projects: Project[] = [
     id: "3",
     title: "E-commerce Analytics Suite",
     category: "client",
-    techTags: ["TypeScript", "Node.js", "BigQuery", "React"],
+    techTags: ["TypeScript", "Node.js"],
     liveLink: "https://example.com",
     description: "Custom analytics for mid-market retailers.",
   },
