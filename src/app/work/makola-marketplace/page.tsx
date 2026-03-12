@@ -174,7 +174,7 @@ export default function MakolaMarketplacePage() {
             {/* CTA */}
             <div className="flex flex-col gap-4 border-t border-zinc-800 pt-8">
               <a
-                href="https://makolamarketplace.com"
+                href="https://makola-marketplace.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-accent transition-colors hover:text-accent/80"

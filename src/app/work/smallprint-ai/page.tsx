@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 
-const LIVE_URL = "https://smallprint-ai.example.com";
+const LIVE_URL = "https://smallprintai-tnxo.vercel.app";
 
 export default function SmallPrintAIPage() {
   return (

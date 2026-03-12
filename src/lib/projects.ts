@@ -25,7 +25,7 @@ export const projects: Project[] = [
     title: "SmallPrint AI",
     category: "client",
     techTags: ["Next.js", "TypeScript", "Tailwind CSS", "Claude", "Vercel"],
-    liveLink: "https://smallprint-ai.example.com",
+    liveLink: "https://smallprintai-tnxo.vercel.app",
     description: "AI-powered contract analysis—upload a PDF, get an instant summary.",
     caseStudy: {
       role: "Lead Full-Stack Developer & Prompt Engineer",
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     title: "Makola Marketplace",
     category: "client",
     techTags: ["Next.js", "React", "Local SEO"],
-    liveLink: "https://makolamarketplace.com",
+    liveLink: "https://makola-marketplace.vercel.app",
     description: "Grocery utility for Houston—shopping lists & kitchen specials.",
     caseStudy: {
       role: "Full-Stack Developer & UX Designer",
