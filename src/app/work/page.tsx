@@ -5,7 +5,7 @@ export default function WorkPage() {
   return (
     <>
       <Header />
-      <main className="pt-24">
+      <main className="min-h-screen bg-zinc-950 pt-24">
         <ProjectGrid />
       </main>
     </>

@@ -19,8 +19,8 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-[#0a0a0f] pt-24">
-        <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
+      <main className="min-h-screen bg-zinc-950 pt-24">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -29,11 +29,11 @@ export default function AboutPage() {
           >
             {/* Left column: Text content */}
             <div className="space-y-6 border-b border-zinc-800/60 pb-12 lg:border-b-0 lg:border-r lg:border-zinc-800/60 lg:pr-16 lg:pb-0">
-              <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+              <h1 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl md:text-4xl">
                 Full-Stack Engineer & AI Architect
               </h1>
 
-              <p className="mt-4 text-lg leading-relaxed text-zinc-400">
+              <p className="mt-4 text-zinc-300 leading-relaxed">
                 I bridge the gap between complex data and intuitive user
                 interfaces. With a focus on Next.js, TypeScript, and SaaS
                 architecture, I build tools that don&apos;t just look
@@ -44,7 +44,7 @@ export default function AboutPage() {
                 <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
                   Technical Core
                 </h2>
-                <div className="space-y-3 text-zinc-400">
+                <div className="space-y-3 text-zinc-300">
                   <p>
                     <span className="font-medium text-zinc-300"
                       >Frontend:</span>{" "}
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500">
                   The 10Q Approach
                 </h2>
-                <p className="leading-relaxed text-zinc-400">
+                <p className="leading-relaxed text-zinc-300">
                   Whether I&apos;m building a legal analysis tool like SmallPrint
                   AI or a statewide directory like Real Taste of Africa, my goal
                   is the same: clean code, rapid deployment, and a high-performance

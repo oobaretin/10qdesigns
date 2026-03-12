@@ -12,14 +12,14 @@ export default function AfriTablePage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-[#0c0c0c] pt-24">
-        <div className="mx-auto max-w-5xl px-4 pt-8 sm:px-6">
+      <main className="min-h-screen bg-zinc-950 pt-24">
+        <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">
           <BackButton />
         </div>
 
         {/* Hero with culinary visual placeholder */}
         <section className="relative border-b border-zinc-800/80 px-4 py-24 sm:px-6">
-          <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-7xl">
             {/* Image placeholder - culinary presentation */}
             <motion.div
               initial={{ opacity: 0 }}
@@ -41,7 +41,7 @@ export default function AfriTablePage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-center"
             >
-              <h1 className="text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl md:text-6xl">
+              <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl md:text-5xl">
                 Afri-Table
               </h1>
               <p className="mt-4 text-lg text-zinc-500">
@@ -61,7 +61,7 @@ export default function AfriTablePage() {
         </section>
 
         {/* Content */}
-        <section className="mx-auto max-w-3xl px-4 py-20 sm:px-6">
+        <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20">
           <div className="space-y-20">
             <motion.section
               initial={{ opacity: 0, y: 20 }}

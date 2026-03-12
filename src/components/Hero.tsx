@@ -7,13 +7,13 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[90vh] flex-col items-center justify-center px-6 pt-24">
-      <div className="mx-auto max-w-4xl text-center">
+    <section className="relative flex min-h-[90vh] flex-col items-center justify-center bg-zinc-950 px-4 pt-24 sm:px-6">
+      <div className="mx-auto max-w-7xl text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl font-bold tracking-tight text-foreground sm:text-7xl md:text-8xl"
+          className="text-4xl font-bold tracking-tight text-zinc-100 sm:text-6xl md:text-7xl lg:text-8xl"
         >
           10Q Designs
         </motion.h1>
@@ -21,7 +21,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="mt-6 text-lg text-muted-foreground sm:text-xl md:text-2xl"
+          className="mt-6 text-base text-zinc-400 sm:text-lg md:text-xl"
         >
           Full-stack development & AI integration.
           <br />

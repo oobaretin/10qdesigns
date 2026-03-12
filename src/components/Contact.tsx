@@ -31,16 +31,16 @@ export function Contact() {
     <TooltipProvider>
       <section
         id="contact"
-        className="scroll-mt-24 bg-gradient-to-b from-zinc-950 to-zinc-900 px-6 py-24"
+        className="scroll-mt-24 bg-zinc-950 px-4 py-16 sm:px-6 sm:py-20"
       >
-        <div className="mx-auto max-w-2xl">
+        <div className="mx-auto max-w-7xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="flex flex-col items-center text-center"
           >
-            <h2 className="text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl md:text-6xl">
+            <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl md:text-5xl">
               Let&apos;s Build Something.
             </h2>
 
@@ -62,7 +62,7 @@ export function Contact() {
                       onClick={handleCopyEmail}
                       className="gap-2 border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-zinc-100"
                     >
-                      <Copy className="h-4 w-4" />
+                      <Copy className="h-5 w-5" />
                       {copied ? "Copied!" : "Copy Email"}
                     </Button>
                   </TooltipTrigger>
@@ -83,7 +83,7 @@ export function Contact() {
                     className="text-zinc-400 transition-colors hover:text-accent"
                     aria-label={link.label}
                   >
-                    <link.icon className="h-6 w-6" />
+                    <link.icon className="h-5 w-5" />
                   </a>
                 ))}
               </div>

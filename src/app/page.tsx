@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="bg-zinc-950">
         <Hero />
         <About />
       </main>

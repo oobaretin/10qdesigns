@@ -14,9 +14,9 @@ export function BackButton() {
       >
         <Link
           href="/work"
-          className="inline-flex items-center gap-2 rounded-lg border border-zinc-800 bg-transparent px-4 py-2 text-sm font-medium text-zinc-400 transition-colors hover:border-zinc-600 hover:text-zinc-100"
+          className="inline-flex items-center gap-2 rounded-xl border border-zinc-800 bg-transparent px-4 py-2 text-sm font-medium text-zinc-400 transition-colors hover:border-zinc-600 hover:text-zinc-100"
         >
-          <ChevronLeft className="h-4 w-4" />
+          <ChevronLeft className="h-5 w-5" />
           Back to Work
         </Link>
       </motion.span>

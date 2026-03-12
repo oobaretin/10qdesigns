@@ -21,7 +21,7 @@ export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
         <h3 className="text-lg font-medium text-zinc-100 transition-colors group-hover:text-white">
           {project.title}
         </h3>
-        <ExternalLink className="absolute right-6 top-6 h-4 w-4 text-zinc-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+        <ExternalLink className="absolute right-6 top-6 h-5 w-5 text-zinc-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
 
         {/* Overlay: tech tags revealed on hover */}
         <div className="absolute inset-0 flex flex-wrap items-center justify-center gap-2 bg-zinc-950/90 p-6 opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100">
@@ -49,7 +49,7 @@ export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
         <Link href={project.featuredPage!}>
           <motion.div
             whileHover={{ scale: 1.02 }}
-            className="group relative block overflow-hidden rounded-lg border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
+            className="group relative block overflow-hidden rounded-xl border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
           >
             {cardContent}
           </motion.div>
@@ -61,7 +61,7 @@ export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
           onClick={onClick}
           onKeyDown={(e) => e.key === "Enter" && onClick?.()}
           whileHover={{ scale: 1.02 }}
-          className="group relative block cursor-pointer overflow-hidden rounded-lg border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
+          className="group relative block cursor-pointer overflow-hidden rounded-xl border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
         >
           {cardContent}
         </motion.div>
@@ -71,7 +71,7 @@ export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.02 }}
-          className="group relative block overflow-hidden rounded-lg border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
+          className="group relative block overflow-hidden rounded-xl border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
         >
           {cardContent}
         </motion.a>

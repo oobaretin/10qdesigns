@@ -16,14 +16,14 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-zinc-800 bg-zinc-950 px-6 py-12">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 sm:flex-row">
+    <footer className="border-t border-zinc-800 bg-zinc-950 px-4 py-12 sm:px-6">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 sm:flex-row">
         <nav className="flex flex-wrap justify-center gap-6">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-zinc-400 transition-colors hover:text-zinc-100"
+              className="text-sm text-zinc-400 transition-colors hover:text-accent"
             >
               {link.label}
             </Link>
@@ -44,7 +44,7 @@ export function Footer() {
           ))}
         </div>
       </div>
-      <div className="mx-auto mt-8 max-w-6xl border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
+      <div className="mx-auto mt-8 max-w-7xl border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
         © {new Date().getFullYear()} 10Q Designs. All rights reserved.
       </div>
     </footer>

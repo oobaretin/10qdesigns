@@ -14,13 +14,13 @@ export default function InventoryPortalPage() {
     <>
       <Header />
       <main className="min-h-screen pt-24">
-        <div className="mx-auto max-w-4xl px-4 pt-8 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">
           <BackButton />
         </div>
 
         {/* Hero - Dashboard-inspired */}
         <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-16 sm:px-6">
-          <div className="mx-auto max-w-4xl">
+          <div className="mx-auto max-w-7xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ export default function InventoryPortalPage() {
         </section>
 
         {/* Content */}
-        <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+        <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
           <div className="space-y-16">
             <motion.section
               initial={{ opacity: 0, y: 20 }}

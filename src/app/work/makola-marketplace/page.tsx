@@ -17,18 +17,18 @@ export default function MakolaMarketplacePage() {
     <>
       <Header />
       <main className="min-h-screen pt-24">
-        <div className="mx-auto max-w-3xl px-4 pt-8 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">
           <BackButton />
         </div>
         {/* Hero */}
         <section className="border-b border-zinc-800 px-4 py-16 sm:px-6">
-          <div className="mx-auto max-w-3xl">
+          <div className="mx-auto max-w-7xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl md:text-5xl">
+              <h1 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl md:text-4xl">
                 Makola Marketplace
               </h1>
               <p className="mt-2 text-zinc-400">
@@ -39,7 +39,7 @@ export default function MakolaMarketplacePage() {
         </section>
 
         {/* Content */}
-        <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+        <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
           <div className="space-y-16">
             <motion.section
               initial={{ opacity: 0, y: 20 }}

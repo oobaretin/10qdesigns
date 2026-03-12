@@ -176,33 +176,5 @@ export const projects: Project[] = [
     liveLink: "https://example.com",
     description: "Custom analytics for mid-market retailers.",
   },
-  {
-    id: "4",
-    title: "Prompt Engineering Playground",
-    category: "personal",
-    techTags: ["Next.js", "Vercel AI SDK", "Tailwind"],
-    liveLink: "https://example.com",
-    description: "Experimental interface for LLM prompts.",
-  },
-  {
-    id: "5",
-    title: "Agentic RAG Prototype",
-    category: "personal",
-    techTags: ["Python", "LangChain", "Pinecone", "Streamlit"],
-    liveLink: "https://example.com",
-    description: "Retrieval-augmented generation with agents.",
-  },
-  {
-    id: "6",
-    title: "Micro-Frontend Architecture Demo",
-    category: "personal",
-    techTags: ["Module Federation", "React", "TypeScript"],
-    liveLink: "https://example.com",
-    description: "Proof-of-concept for scalable frontend composition.",
-  },
 ];
 
-export const projectCategories: { value: ProjectCategory; label: string }[] = [
-  { value: "client", label: "Client Work" },
-  { value: "personal", label: "Personal Projects" },
-];

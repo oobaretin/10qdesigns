@@ -14,19 +14,19 @@ export default function NikisHairBraidingPage() {
     <>
       <Header />
       <main className="min-h-screen pt-24">
-        <div className="mx-auto max-w-4xl px-4 pt-8 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">
           <BackButton />
         </div>
         {/* Hero with imagery placeholder */}
-        <section className="relative border-b border-zinc-800 bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 px-4 py-24 sm:px-6">
-          <div className="mx-auto max-w-4xl">
+        <section className="relative border-b border-zinc-800 bg-zinc-950 px-4 py-16 sm:px-6 sm:py-20">
+          <div className="mx-auto max-w-7xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               className="text-center"
             >
-              <h1 className="text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl md:text-6xl">
+              <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl md:text-5xl">
                 Niki&apos;s African Hair Braiding
               </h1>
               <p className="mt-4 text-lg text-zinc-400">
@@ -43,7 +43,7 @@ export default function NikisHairBraidingPage() {
         </section>
 
         {/* Content */}
-        <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
           <div className="space-y-16">
             <motion.section
               initial={{ opacity: 0, y: 20 }}

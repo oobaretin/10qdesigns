@@ -32,18 +32,18 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="scroll-mt-24 px-6 py-24">
-      <div className="mx-auto max-w-6xl">
+    <section id="services" className="scroll-mt-24 bg-zinc-950 px-4 py-16 sm:px-6 sm:py-20">
+      <div className="mx-auto max-w-7xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="mb-16"
         >
-          <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+          <h2 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl md:text-4xl">
             What I Build
           </h2>
-          <p className="mt-2 text-muted-foreground">
+          <p className="mt-2 text-zinc-400">
             The 10Q Designs Service Suite
           </p>
         </motion.div>
@@ -57,13 +57,13 @@ export function Services() {
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
               whileHover={{ y: -4 }}
-              className="group rounded-lg border border-zinc-800 bg-transparent p-6 transition-shadow duration-300 hover:border-accent/50 hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3)]"
+              className="group rounded-xl border border-zinc-800 bg-transparent p-6 transition-shadow duration-300 hover:border-accent/50 hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3)]"
             >
-              <service.icon className="mb-4 h-8 w-8 text-zinc-400 transition-colors group-hover:text-accent" />
+              <service.icon className="mb-4 h-6 w-6 text-zinc-400 transition-colors group-hover:text-accent" />
               <h3 className="text-lg font-bold text-zinc-100">
                 {service.title}
               </h3>
-              <p className="mt-2 text-zinc-400">{service.description}</p>
+              <p className="mt-2 text-zinc-300">{service.description}</p>
             </motion.div>
           ))}
         </div>

@@ -24,9 +24,9 @@ export function Header() {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-40 border-b border-border/50 bg-background/80 backdrop-blur-md"
+      className="fixed top-0 left-0 right-0 z-40 border-b border-zinc-800 bg-zinc-950/90 backdrop-blur-md"
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <Link
           href="/"
           className="transition-opacity hover:opacity-80"
@@ -47,7 +47,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-zinc-400 transition-colors hover:text-zinc-100"
             >
               {link.label}
             </Link>
@@ -61,7 +61,7 @@ export function Header() {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          <Menu className="h-5 w-5" />
+          <Menu className="h-5 w-5" aria-hidden />
         </Button>
       </nav>
 
@@ -71,13 +71,13 @@ export function Header() {
           mobileMenuOpen ? "max-h-64" : "max-h-0"
         )}
       >
-        <div className="flex flex-col gap-4 border-t border-border px-6 py-4">
+        <div className="flex flex-col gap-4 border-t border-zinc-800 px-6 py-4">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setMobileMenuOpen(false)}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-zinc-400 transition-colors hover:text-zinc-100"
             >
               {link.label}
             </Link>

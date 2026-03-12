@@ -18,19 +18,19 @@ export default function RealTasteOfAfricaPage() {
     <>
       <Header />
       <main className="min-h-screen pt-24">
-        <div className="mx-auto max-w-5xl px-4 pt-8 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4 pt-8 sm:px-6">
           <BackButton />
         </div>
         {/* Hero */}
-        <section className="relative border-b border-zinc-800 bg-gradient-to-b from-zinc-950 to-zinc-900 px-4 py-24 sm:px-6">
-          <div className="mx-auto max-w-5xl">
+        <section className="relative border-b border-zinc-800 bg-zinc-950 px-4 py-16 sm:px-6 sm:py-20">
+          <div className="mx-auto max-w-7xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               className="flex flex-col items-center text-center"
             >
-              <h1 className="text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl md:text-6xl lg:text-7xl">
+              <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl md:text-5xl lg:text-6xl">
                 Real Taste of Africa
               </h1>
               <p className="mt-4 text-lg text-zinc-400">
@@ -43,7 +43,7 @@ export default function RealTasteOfAfricaPage() {
                   rel="noopener noreferrer"
                 >
                   Live Site
-                  <ExternalLink className="h-4 w-4" />
+                  <ExternalLink className="h-5 w-5" />
                 </a>
               </Button>
             </motion.div>
@@ -51,13 +51,13 @@ export default function RealTasteOfAfricaPage() {
         </section>
 
         {/* Data Highlight */}
-        <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-16 sm:px-6">
-          <div className="mx-auto max-w-5xl text-center">
+        <section className="border-b border-zinc-800 bg-zinc-950 px-4 py-12 sm:px-6 sm:py-16">
+          <div className="mx-auto max-w-7xl text-center">
             <motion.p
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="text-3xl font-bold text-accent sm:text-4xl md:text-5xl"
+              className="text-2xl font-bold text-accent sm:text-3xl md:text-4xl"
             >
               175+ Verified Listings across Texas
             </motion.p>
@@ -65,7 +65,7 @@ export default function RealTasteOfAfricaPage() {
         </section>
 
         {/* Content */}
-        <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
           <div className="space-y-16">
             <motion.section
               initial={{ opacity: 0, y: 20 }}
