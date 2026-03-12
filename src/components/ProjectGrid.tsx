@@ -63,7 +63,7 @@ export function ProjectGrid() {
                 project={project}
                 index={index}
                 onClick={
-                  project.caseStudy
+                  project.caseStudy && !project.featuredPage
                     ? () => setSelectedProject(project)
                     : undefined
                 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import type { Project } from "@/lib/projects";
@@ -11,7 +12,8 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
-  const hasCaseStudy = !!project.caseStudy;
+  const hasFeaturedPage = !!project.featuredPage;
+  const hasCaseStudy = !!project.caseStudy && !hasFeaturedPage;
 
   const cardContent = (
     <>
@@ -43,7 +45,16 @@ export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
     >
-      {hasCaseStudy ? (
+      {hasFeaturedPage ? (
+        <Link href={project.featuredPage!}>
+          <motion.div
+            whileHover={{ scale: 1.02 }}
+            className="group relative block overflow-hidden rounded-lg border border-zinc-800 bg-transparent transition-shadow duration-300 hover:border-zinc-600 hover:shadow-[0_0_24px_rgba(82,82,91,0.2)]"
+          >
+            {cardContent}
+          </motion.div>
+        </Link>
+      ) : hasCaseStudy ? (
         <motion.div
           role="button"
           tabIndex={0}
